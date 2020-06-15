@@ -1,0 +1,45 @@
+{
+	"variables": [],
+	"info": {
+		"name": "Exercícios Kotlin",
+		"_postman_id": "944bc4e3-6c21-b4cf-1c5f-24154cd0afff",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "geradorModel",
+			"request": {
+				"url": "localhost:8080/geradorModel",
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "User name:String idade:Int"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "gerenciadorRotas",
+			"request": {
+				"url": "localhost:8080/gerenciadorRotas",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"urlOriginal\":\"/users/2/\",\n\t\"list\":[\"/users\",\"/users/{user_id}\",\"/comments\"]\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		}
+	]
+}
