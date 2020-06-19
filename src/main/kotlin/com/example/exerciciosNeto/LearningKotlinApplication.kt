@@ -1,4 +1,4 @@
-package com.example.learningKotlin
+package com.example.exerciciosNeto
 
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication

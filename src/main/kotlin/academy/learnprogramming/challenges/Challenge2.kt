@@ -49,5 +49,5 @@ fun main(args: Array<String>) {
     //exemplo de uso do operador "!!"
     val variavelNula: Int? = null
     println(variavelNula?.toDouble())
-    println(variavelNula!!.toDouble())
+    println(variavelNula!!.toDouble()) //ignorar a checagem de nulo
 }

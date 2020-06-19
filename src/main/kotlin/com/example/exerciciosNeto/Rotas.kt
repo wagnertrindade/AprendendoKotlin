@@ -1,4 +1,4 @@
-package com.example.learningKotlin
+package com.example.exerciciosNeto
 
 data class Rotas(
         val urlOriginal: String,
